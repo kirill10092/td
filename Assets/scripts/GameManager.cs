@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static bool GameIsOver = false;
-
+    public static bool isMusic = false;
     public GameObject gameOverUI;
 
 
@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;
         }
     }
     void EndGame()

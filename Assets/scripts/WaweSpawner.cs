@@ -49,7 +49,7 @@ public class WaveSpawner : MonoBehaviour
     {
         isSpawning = true;
         PlayerStats.Rounds++;
-        PlayerStats.Money += 50 + currentWaveIndex * 5;
+        PlayerStats.Money += 100 + currentWaveIndex * 5;
 
         if (waveCountDownText != null)
             waveCountDownText.text = $"Wave {currentWaveIndex + 1} in progress";

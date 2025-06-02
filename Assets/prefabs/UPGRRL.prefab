@@ -81,7 +81,7 @@ MonoBehaviour:
   fireRate: 0.6
   enemyTag: Enemy
   turnSpeed: 6000
-  bulletPrefab: {fileID: 1858849421981989011, guid: ad568cdabb96d91498dba0a52d4495af, type: 3}
+  bulletPrefab: {fileID: 1858849421981989011, guid: d5747a49006c7a3498bddaec6722b006, type: 3}
   firePoint: {fileID: 219428543334121059}
 --- !u!1 &5516036275939428493
 GameObject:
